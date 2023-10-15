@@ -54,11 +54,3 @@ class Snake:
     def get_time(self):
         sleep_time = input("Pause")
         return sleep_time
-
-
-    # def reset(self):                                              # alternative mechanism for restarting the game:
-    #   for seg in self.segments:                                   # clear self.segments & move elements outside of screen
-    #       seg.goto(1000, 1000)
-    #   self.segments.clear()
-    #   self.create_snake()
-    #   self.head = self.segments[0]
